@@ -145,5 +145,5 @@ app.post('/placeOrder', (req, res) => {
     });
 })
 
-const port = process.env.PORT || 4200;
-app.listen(port, () => console.log("Listening to the port 4200"))
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log("Listening to the port 3000"))
